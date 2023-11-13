@@ -1,0 +1,24 @@
+.p_8 {
+    background-color: #ffa600;
+    border-collapse: collapse;
+    border-bottom: dotted #e77b7b;
+}
+
+.p_8 th {
+    color: #ff0000;
+}
+
+.p_8 td,
+.p_8 tr {
+    border: 1px dotted #000000;
+}
+
+#e,
+#p {
+    font-size: 30px;
+}
+
+#footer_name {
+    font-size: 10px;
+    text-align: center;
+}
