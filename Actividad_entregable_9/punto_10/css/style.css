@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+/* el asterisco hace que tome la configuracion en todo el documento antes y despues*/
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font: 1.2em/1.2 Helvetica, aria, sans-serif;
+    margin: 0 3%;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: .9em 0 0 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1.5em 0 0 0;
+}
+ /* ancho maximo de las imagenes*/
+img {
+    max-width: 100%;
+}
+
+figure {
+    background: black;
+    border-radius: 5px;
+    color: rgb(216, 12, 12);
+    margin: 0 0 25px 0;
+    padding: 10px;
+    text-align: center;
+
+}
+
+figcaption {
+    font-size: .8em;
+}
+/*responsive disign*/
+/*al alcanzar valores igual o superior a 600 pixeles se ejecuta el siguiente reajuste de pantalla*/
+@media screen and (min-width: 600px) {
+    body {
+        background: rgb(219, 44, 44);
+        margin: 25px 6%;
+    }
+
+    figure {
+        float: left;
+        width: 45%;
+        margin-right: 4.5%;
+    }
+}
+/* cuando el reajuste de pantalla se encuentre entre 1000 pixeles y 1200 pixeles
+se ejecuta las siguientes ordenes*/
+@media screen and (min-width: 1000px) {
+    body {
+        background: rgba(236, 233, 28, 0.2);
+        margin: 25px 10%;
+        max-width: 1200px;
+    }
+
+    figure {
+        width: 30%;
+        margin-right: 2.5%;
+    }
+}

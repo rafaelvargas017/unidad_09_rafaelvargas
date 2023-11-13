@@ -1,0 +1,38 @@
+body {
+    background-color: #f0ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+#title {
+    font-size: 25px;
+}
+
+#green {
+    text-decoration: underline;
+    color: rgb(9, 256, 9);
+}
+
+#red {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#black {
+    text-decoration: underline overline;
+}
+
+#big {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#blue {
+    color: rgb(0, 0, 255);
+    font-weight: bolder;
+}
+
+#footer_name {
+    font-size: 10px;
+}
